@@ -1,29 +1,11 @@
 # Execise repo for Angular-Skill-Level-1
 
-This project was generated with CI command : ng new exr-level-1
+This branch is named 'new-virgin-project'.
 
-[Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
+Do not add changes to this branch so that it stays virgin,
+this is so that it can be used to create new projects without running the 'ng new' command.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## After loading this repo
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Run 'npm init' to get create the 'node_modules' folder.
