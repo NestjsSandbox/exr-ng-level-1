@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+/* 
+This import below is not needed because we already call up the bootstrap from angular.json
+But if we didnt call for it in angular.json file then we do need to import it here.
+@import  'bootstrap/dist/css/bootstrap.css'; 
+*/
