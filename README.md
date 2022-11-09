@@ -1,29 +1,18 @@
 # Execise repo for Angular-Skill-Level-1
 
-This project was generated with CI command : ng new exr-level-1
+# Branch:
+This is branch 'exr-2022.11.09.1507-component'
 
-[Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
+# Exercise source:
+Udemy Max Sec.02 Video.27 Components
 
-## Development server
+# Exercise task:
+1. Create two new Components (manually or with CLI): WarningAlert and SuccessAlert
+2. Output them beneath each other in the AppComponent
+3. Output a warning or success message in the Components
+4. Style the Components appropriately (maybe some red/green text?)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Use external or internal templates and styles!
+- Feel free to create more components, nest them into each other or play around with different types of selectors!
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
