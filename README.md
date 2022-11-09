@@ -1,6 +1,8 @@
-# ExrLevel1
+# Execise repo for Angular-Skill-Level-1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
+This project was generated with CI command : ng new exr-level-1
+
+[Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
 
 ## Development server
 
