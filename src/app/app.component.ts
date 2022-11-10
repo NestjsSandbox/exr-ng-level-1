@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'exr-level-1';
 
+
+  onIntervalFired(counter: number){
+    console.log(`counter=${counter}`);
+  }
 }

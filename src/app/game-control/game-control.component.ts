@@ -20,13 +20,13 @@ export class GameControlComponent implements OnInit {
     this.interval = setInterval( () => {
       this.intervalFired.emit(this.lastNumber+1);
       this.lastNumber++;
-      console.log(`lastNumber=${this.lastNumber}`);
+      //console.log(`lastNumber=${this.lastNumber}`);
     },1000);
   }
 
   onClickEnd(){
     console.log('Ended')
-    this.lastNumber = 0;
+    // this.lastNumber = 0; //This is if u want to reset the numbers to 0
     clearInterval(this.interval);
   }
 }
