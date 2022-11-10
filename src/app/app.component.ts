@@ -6,10 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'exr-level-1';
-
+  oddNumberList: number[] = [];
 
   onIntervalFired(counter: number){
     console.log(`counter=${counter}`);
+    if (counter % 2 !== 0 /*Case of odd number */) {
+      this.oddNumberList.push(counter);
+    }
   }
 }
