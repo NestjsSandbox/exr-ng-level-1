@@ -6,7 +6,9 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   styleUrls: ['./game-control.component.css']
 })
 export class GameControlComponent implements OnInit {
-
+  interval: any;
+  @Output() intervalFired = new EventEmitter<number>();
+  lastNumber: number = 0;
 
   constructor() { }
 
@@ -15,11 +17,16 @@ export class GameControlComponent implements OnInit {
 
   onClickStart(){
     console.log('Started')
+    this.interval = setInterval( () => {
+      this.intervalFired.emit(this.lastNumber+1);
+      this.lastNumber++;
+      console.log(`lastNumber=${this.lastNumber}`);
+    },1000);
   }
-
 
   onClickEnd(){
     console.log('Ended')
-
+    this.lastNumber = 0;
+    clearInterval(this.interval);
   }
 }
