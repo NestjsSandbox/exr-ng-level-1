@@ -36,6 +36,7 @@
     <div class="col-xs-12">
       <app-game-control (intervalFired)="onIntervalFired($event)" ></app-game-control>
       <app-odd *ngFor="let oddValue of oddNumberList" [passedOddNumber]="oddValue"></app-odd>
+      <app-even *ngFor="let evenValue of evenNumberList" [passedEvenNumber]="evenValue"></app-even>
     </div>
   </div>
 
